@@ -1,3 +1,6 @@
+* {
+font-family: helvetica, arial, sans-serif; 
+}
 p,h1 {
 color: red; 
 font-size: 18px; 
@@ -5,4 +8,34 @@ font-size: 18px;
 a {
 color: #bbb545;
 font-size: 40px; 
+}
+p.paragraph {
+color: green; 
+}
+.wrap {
+color: red; 
+}
+#heading {
+font-size: 45px; 
+}
+a[href="http://google.com"] {
+color: purple; 
+}
+a[href="http://yandex.ru"] {
+color: pink; 
+}
+.container h3 {
+background: blue; 
+} 
+.container > p {
+text-decoration: line-through; 
+}
+#heading + span {
+color: yellow; 
+}
+a:hover {
+text-decoration: none; 
+}
+h1::first-letter {
+color: #d2d2d2; 
 }
