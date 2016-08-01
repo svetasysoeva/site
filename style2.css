@@ -1,0 +1,11 @@
+.container {
+width: 1140px;
+margin:  auto; 
+}
+header {
+text-align: center; 
+}
+.main_content {
+width: 774px; 
+margin: 0 auto;  
+}
