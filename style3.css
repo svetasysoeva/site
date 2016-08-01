@@ -1,0 +1,25 @@
+.wrap {
+width: 900px; 
+margin: 0 auto; 
+}
+header {
+background: green; 
+}
+.content, aside {
+height: 300px; 
+}
+.content {
+float: left; 
+background: grey; 
+width: 70%; 
+}
+aside {
+float: left; 
+background: red; 
+width: 30%; 
+}
+footer {
+background: blue; 
+clear: both;  
+/*width: 20%; */
+}
